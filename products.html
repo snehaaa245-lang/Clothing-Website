@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shop - Trendyclub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Trendyclub</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Shop</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+
+  <section class="catalog">
+    <h2>Our Collection</h2>
+    <p>Browse our latest arrivals and bestsellers. Trendyclub offers versatile fashion for every occasion.</p>
+    <div class="product-grid">
+      <div class="product">
+        <img src="https://via.placeholder.com/200" alt="T-shirt">
+        <h3>Graphic T-Shirt</h3>
+        <p>₹999 – Bold prints for everyday wear.</p>
+        <button onclick="addToCart('Graphic T-Shirt', 999)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200" alt="Jeans">
+        <h3>Slim Fit Jeans</h3>
+        <p>₹1799 – Comfortable stretch denim with a modern cut.</p>
+        <button onclick="addToCart('Slim Fit Jeans', 1799)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/200" alt="Hoodie">
+        <h3>Casual Hoodie</h3>
+        <p>₹1499 – Cozy fleece hoodie for all seasons.</p>
+        <button onclick="addToCart('Casual Hoodie', 1499)">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Trendyclub Clothing | Stay Trendy, Stay Confident</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
